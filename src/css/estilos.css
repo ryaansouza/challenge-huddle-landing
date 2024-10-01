@@ -1,3 +1,26 @@
 body {
-    background-color: blueviolet;
+    max-width: 100%;
+    background-color: var(--primary-color);
+    background-image: url(../images/bg-desktop.svg);
+}
+
+.header {
+    display: flex;
+    padding: 30px;
+}
+
+.header .link-logo {
+    display: flex;
+}
+
+.header .link-logo .logo {
+    max-width: 200px;
+}
+
+.main {
+    display: flex;
+}
+
+.main .container-mockup .image-mockup {
+    
 }
