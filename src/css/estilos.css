@@ -1,5 +1,8 @@
 body {
-    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
     background-color: var(--primary-color);
     background-image: url(../images/bg-desktop.svg);
     font-family: "Open Sans", sans-serif;
@@ -16,26 +19,24 @@ body {
 }
 
 .header .link-logo .logo {
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .main {
-    max-height: 500px;
+    max-height: 480px;
     display: flex;
+    gap: 30px;
     justify-content: center;
-    padding: 30px 50px;
-}
-
-.main .container-mockup {
-    text-align: center;
+    padding: 0 50px;
 }
 
 .main .container-mockup .image-mockup {
+    max-width: 100%;
     max-height: 100%;
 }
 
 .main .container-info {
-    max-width: 440px;
+    max-width: 455px;
 }
 
 .main .container-info .title {
@@ -57,4 +58,28 @@ body {
     font-weight: 400;
     color: var(--primary-color);
     box-shadow: 2px 5px 30px -8px black;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 0px 50px;
+}
+
+.footer .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border: solid 1px #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer .link .fab {
+    color: #ffffff;
+    font-size: 15px;
 }
