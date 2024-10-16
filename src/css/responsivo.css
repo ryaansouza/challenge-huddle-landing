@@ -25,6 +25,12 @@
 }
 
 @media (max-width: 800px) {
+    body {
+        background-color: var(--primary-color);
+        background-image: url(../images/bg-desktop.svg);
+        background-size: cover;
+    }
+
     .header .link-logo .logo {
         max-width: 120px;
     }
