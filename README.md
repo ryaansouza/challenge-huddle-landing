@@ -30,8 +30,8 @@ Usuarios devem ser capaz de:
 
 ### Links
 
-- Repository: [Add solution URL here](https://your-solution-url.com)
-- Deploy: [Add live site URL here](https://your-live-site-url.com)
+- Repository: [https://github.com/ryaansouza/challenge-huddle-landing](https://github.com/ryaansouza/challenge-huddle-landing)
+- Deploy: [https://ryaansouza.github.io/challenge-huddle-landing/](https://ryaansouza.github.io/challenge-huddle-landing/)
 
 ## Meu Processo
 
